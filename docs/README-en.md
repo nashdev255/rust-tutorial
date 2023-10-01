@@ -1,18 +1,18 @@
 # Rust Tutorial
-### 目的 : Rustの基本文法を学び、Rustを用いたCLIツールの開発を行う。
+### target : learn the basis of Rust language and develop CLI tools.
 
-## 参考ドキュメント
-### ドキュメントのリンク
+## references
+### document link
 [Learn Rust - Rust Programming Language](https://www.rust-lang.org/learn)
 
-### ローカルでのドキュメント参照コマンド
+### try the command below to open the document locally.
 ```:cmd
 ~\rust-tutorial> rustup doc
 ```
 
 <br/>
 
-## トラブルシューティング
-### `error: link.exe not found`と表示される。
-### 原因 : Visual StudioでのC++の実行環境が整っていないことから発生する。
-### 対処 : [Visual Studio ダウンロードページ](https://visualstudio.microsoft.com/ja/downloads/)からVisual Studio Build Tools 20xx(vs_BuildTools.exe)をダウンロードし、起動後「C++によるデスクトップ開発」にチェックを入れてインストールする。
+## Troubleshootings
+### when `error: link.exe not found` is displayed.
+### cause : it would be no Visual Studio C++ desktop environment on your environment.
+### fix : download Visual Studio Build Tools 20xx from [Visual Studio download page](https://visualstudio.microsoft.com/en/downloads/), run and check up "Visual C++ Build Tools" to install it.

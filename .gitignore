@@ -1,3 +1,6 @@
 # aren't needed
 *.exe
 *.pdb
+
+# cargo project
+hello_cargo/
